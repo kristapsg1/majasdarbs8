@@ -1,0 +1,28 @@
+{
+  "Cars": [
+    {
+      "title": "Hunday",
+      "year": "1994123213",
+      "description": "Mazs noskrejiens!ffqwfqwfqwfqw",
+      "price": "100321321321",
+      "date": 1700696801478,
+      "id": 1
+    },
+    {
+      "title": "Bmw",
+      "year": "2020",
+      "description": "Ziemsitis",
+      "price": "69,000",
+      "date": 1700696933266,
+      "id": 2
+    },
+    {
+      "title": "Audi",
+      "year": "2005",
+      "description": "Braukats tikai brivdienas!",
+      "price": "2500",
+      "date": 1700739469714,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+body{
+    background-color: #a89393;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr)); /* Increase the min-width */
+    gap: 15px
+}
+
+.picture-wrapper{
+    justify-content: center;
+    display: flex;
+}
+
+.picture{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: rgb(20, 116, 161);
+    border-radius: 5px;
+    border: 5px solid #000000; 
+}
+
+.car-outputs{
+    
+    white-space: normal; /* Allow text to wrap onto multiple lines */
+    overflow-wrap: break-word;
+    max-width: 100%;
+    
+    
+}
+
+.buttons-in{
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.button-cars{
+    padding: 5px 15px;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: rgb(127, 143, 89);
+    cursor: pointer;
+    
+}
+
+.date{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+
+.add-cars{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 15px;
+    margin: 0;
+}
+
+.form-class{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-edit{
+    padding: 5px 15px;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: rgb(127, 143, 89);
+    justify-content: end;
+    cursor: pointer;
+}
+
+.button-edit-box{
+    display: flex;
+    justify-content: end;
+}
